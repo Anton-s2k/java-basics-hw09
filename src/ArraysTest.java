@@ -14,16 +14,15 @@ public class ArraysTest {
     public static Object[][] arrays() {
         return new Object[][]{
                 {
-                        new String[]{"Python", "JAVA", "PHP", "C#", "C++", "SQL"},
-                        new String[]{"MySQL", "SQL", "SQLite", "Oracle", "PostgreSQL", "DB2", "JAVA"},
+                        new String[]{"Python", "JAVA", "PHP", "C#", "C++", "SQL", "Pascal", "+"},
+                        new String[]{"MySQL", "SQL", "SQLite", "Oracle", "PostgreSQL", "DB2", "JAVA", "Delphi", "-"},
                         new String[]{"JAVA", "SQL"}
                 },
                 {
-                        new String[]{"here", "is", "some", "text", ".", "text"},
-                        new String[]{"some", "text", "above", "."},
+                        new String[]{"here", "is", "some", "text", ".", "text", "1"},
+                        new String[]{"some", "text", "above", ".", "_"},
                         new String[]{"some", "text", "."}
                 }
-                // TODO add 2 more test data here
         };
     }
 
